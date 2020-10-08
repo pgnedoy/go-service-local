@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+
+./bin/github-deploy-setup.sh
+
+cd $BASE_DIR
+
+git config --global url."git@github.com:".insteadOf "https://github.com/"
+GOPRIVATE=github.com/9count go build -o /bin/app
+
+./bin/github-deploy-teardown.sh
