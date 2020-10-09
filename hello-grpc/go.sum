@@ -211,6 +211,8 @@ github.com/pgnedoy/protos v0.0.0-20201008194531-d4eb270d7988 h1:exg7rV3zeTj/fDaw
 github.com/pgnedoy/protos v0.0.0-20201008194531-d4eb270d7988/go.mod h1:Lx3vwayrBIYp5HvaybHWq/c9Vt6XSy0FdhJYud6w1+Q=
 github.com/pgnedoy/protos v0.0.4 h1:HG6Do4m8/ef+5k+SUfclK400q5/vZPWEDw3u1yxfv+Y=
 github.com/pgnedoy/protos v0.0.4/go.mod h1:Lx3vwayrBIYp5HvaybHWq/c9Vt6XSy0FdhJYud6w1+Q=
+github.com/pgnedoy/protos v0.0.6 h1:IqRKrx8HBIezNNoimF5MV+jJKxPOROfiVQ6G83aNnTI=
+github.com/pgnedoy/protos v0.0.6/go.mod h1:Lx3vwayrBIYp5HvaybHWq/c9Vt6XSy0FdhJYud6w1+Q=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
