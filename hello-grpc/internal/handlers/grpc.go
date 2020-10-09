@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/hellogrpc/v2"
+	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/hello-proto/v1"
 )
 
 type GrpcServer struct {
@@ -55,5 +55,15 @@ func (s *GrpcServer) Hello(ctx context.Context, req *hellogrpcv1.HelloRequest) (
 	return &hellogrpcv1.HelloResponse{
 		Greeting:  fmt.Sprintf("Hello, %s!", req.Name),
 		GreetTime: greetingTime,
+	}, nil
+}
+
+func (s *GrpcServer) CreateUser(ctx context.Context, req *hellogrpcv1.CreateUserRequest) (*hellogrpcv1.CreateUserResponse, error) {
+	fmt.Printf("%+v\n", req)
+	fmt.Println("---------------------------")
+	fmt.Println(req)
+
+	return &hellogrpcv1.CreateUserResponse{
+		User:                 nil,
 	}, nil
 }

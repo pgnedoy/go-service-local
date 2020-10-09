@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/boilerplates/hellogrpc/v1"
+	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/hello-proto/v1"
 )
 
 func TestNewGrpcServer(t *testing.T) {

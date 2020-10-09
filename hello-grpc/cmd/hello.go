@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/hellogrpc/v1"
+	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/hello-proto/v1"
 
 	"github.com/pgnedoy/go-service-local/core/flags"
 	"github.com/pgnedoy/go-service-local/core/grpc"

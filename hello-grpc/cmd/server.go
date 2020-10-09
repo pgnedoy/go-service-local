@@ -8,10 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc/reflection"
 
-	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/boilerplates/hellogrpc/v1"
+	hellogrpcv1 "github.com/pgnedoy/protos/gen/go/hello-proto/v1"
 
 	"github.com/pgnedoy/go-service-local/core/flags"
 	"github.com/pgnedoy/go-service-local/core/grpc"
+	"github.com/pgnedoy/go-service-local/hello-grpc/internal/handlers"
 )
 
 const (
